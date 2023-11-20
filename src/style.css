@@ -53,14 +53,16 @@ input{
 }
 .image{
     width: 30%;
-    height: 250px;
+    height: 350px;
     border-radius: 15px;
     transition: all 0.2s ease-in-out;
+ 
 }
 .image:hover,
 .image:focus,
 .image:focus-visible{
     transform: scale(1.05);
+  
 }
 
 @media only screen and (max-width: 900px) {

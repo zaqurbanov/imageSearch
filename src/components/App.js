@@ -21,9 +21,10 @@ render(){
         <div>
 
             <SearchInput onSearchSubmit = {this.onSearchSubmit} />
-
+<h3>{process.env.NODE_ENV}</h3>
             <div className="image-main">
             <ImageList images={this.state.images} />
+            
 
             </div>
         </div>
